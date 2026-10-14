@@ -12,23 +12,25 @@ williams-agentic-AI-plugins-and-skills/
 │       └── release-skills.yml
 ├── config/
 │   └── plugins/
-│       ├── williams-agentic-programming/
+│       ├── williams-agentic-software-development/
 │       │   ├── plugin.json
 │       │   ├── README.md
+│       │   ├── rules/
+│       │   │   └── AGENTS.md
 │       │   └── skills/
 │       │       ├── add-commit-push/
-│       │       ├── agent-development-instructions/
-│       │       ├── general-programming-instructions/
-│       │       ├── git-instructions/
-│       │       ├── python-programming-instructions/
-│       │       ├── react-programming-instructions/
-│       │       └── relational-database-instructions/
+│       │       ├── python-programming/
+│       │       ├── react-programming/
+│       │       └── relational-database/
 │       └── williams-general-agentic-work/
 │           ├── plugin.json
 │           ├── README.md
+│           ├── rules/
+│           │   └── AGENTS.md
 │           └── skills/
 │               ├── ask/
 │               ├── explain-issue-and-propose-fix/
+│               ├── get-related-resources/
 │               ├── review-text/
 │               ├── sandbox-task/
 │               └── skill-creation/

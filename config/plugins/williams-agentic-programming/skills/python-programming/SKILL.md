@@ -13,4 +13,4 @@ This styleguide aims to be a complement to the PEP styleguides & unwritten idiom
 - **Module scope:** A module (`.py` file) must handle a single entity or responsibility. Place all functions, classes, and constants that implement that responsibility into the same file, and place unrelated logic into separate modules.
 - **Package responsibility:** A package (directory containing `__init__.py`) groups related modules that form a complete subsystem. Expose the subsystem's public API through `__init__.py` and keep internal implementation modules private to the package.
 - **Conditional branching:** Use `match`/`case` statements for equality checks where a variable can have multiple discrete values. Use `if` statements for testing the boolean value of other conditional logic.
-- **Terminal execution:** Prefer shell scripts for simple tasks and general systems tasks; use inline Python code through the terminal for more advanced tasks (such as testing behavior, reproducing errors, or diagnosing bugs).
+- **Terminal execution:** Prefer shell scripts for simple tasks and general systems tasks; use inline Python code through the terminal for more advanced tasks.

@@ -4,7 +4,7 @@ A Gemini and Antigravity plugin bundling programming instructions, architectural
 
 ## Plugin Rules
 
-- `rules/AGENTS.md`: Language-agnostic coding standards (SRP, encapsulation, Law of Demeter, line limits), default argument restrictions, and Conventional Commits instructions.
+- `rules/AGENTS.md`: Language-agnostic coding standards, agent development instructions, and Conventional Commits instructions.
 
 ## Bundled Skills
 
